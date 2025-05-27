@@ -16,7 +16,7 @@ const HeroSection: React.FC = () => {
         className="absolute inset-0 -z-10"
         style={{
           backgroundImage:
-            "linear-gradient(to bottom right, rgba(27, 80, 194, 0.95), rgba(36, 198, 186, 0.8))",
+            "linear-gradient(to bottom right, rgba(24, 78, 194, 0.95), rgba(36, 198, 186, 0.8))",
         }}
       />
 
