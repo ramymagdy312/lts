@@ -13,10 +13,10 @@ const HeroSection: React.FC = () => {
   return (
     <section className="relative min-h-screen pt-24 pb-16 flex items-center">
       <div
-        className="absolute inset-0 -z-10"
+        className="absolute inset-0 -z-10 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            "linear-gradient(to bottom right, rgba(24, 78, 194, 0.95), rgba(36, 198, 186, 0.8))",
+            'linear-gradient(to bottom right, rgba(114, 113, 113, 0.18), rgba(0, 0, 0, 0.6)), url("hero.jfif")',
         }}
       />
 
@@ -45,10 +45,7 @@ const HeroSection: React.FC = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <a
-              href="mailto:info@linktalentsupport.com"
-              className="btn-primary inline-flex items-center justify-center"
-            >
+            <a href="mailto:info@linktalentsupport.com" className="btn-primary">
               Contact Us
             </a>
           </div>
